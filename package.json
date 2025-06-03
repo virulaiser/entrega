@@ -21,7 +21,8 @@
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.10.0",
     "react-redux": "^9.2.0",
-    "yup": "^1.6.1"
+    "yup": "^1.6.1",
+    "expo-sqlite": "~15.2.10"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

@@ -18,7 +18,7 @@ const LoginScreen = ({ navigation }) => {
            console.log('Valor de auth de loginScreen:', auth.currentUser); // <--- AGREGAR ESTO
             navigation.navigate('Home');
         } catch (error) {
-            Alert.alert("Error al iniciar sesión", error.message);
+            console.log("Error al iniciar sesión", error.message);
         }
     };
 
