@@ -22,7 +22,9 @@
     "react-native-screens": "~4.10.0",
     "react-redux": "^9.2.0",
     "yup": "^1.6.1",
-    "expo-sqlite": "~15.2.10"
+    "expo-sqlite": "~15.2.10",
+    "react-native-maps": "1.20.1",
+    "expo-location": "~18.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
