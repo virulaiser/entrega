@@ -1,4 +1,4 @@
-Entrega para coder React native-
+Entrega para coder React native- prueba
 
 por un tema de tiempo separe en dos componentes en la APP.js , los vas a ver comentado , pero funcionan por separadp
 componente 1 AppNavigator es el login y record  (con firebase en bd remota) con persistencia local de seccion .
