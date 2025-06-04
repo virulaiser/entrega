@@ -9,7 +9,7 @@ import {
 import { auth } from "../firebase/config";
 import * as Location from "expo-location"; // Importa Expo Location para obtener la ubicación
 import MapView, { Marker } from "react-native-maps"; // Importa MapView y Marker de react-native-maps
-import MapsConmponents from "../components/MapsConmponents"; // Asegúrate de que este componente exista y esté configurado correctamente
+/* import MapsConmponents from "../components/MapsConmponents"; */ // Asegúrate de que este componente exista y esté configurado correctamente
 
 const HomeScreen = () => {
     const [location, setLocation] = useState(null); //guarda ubicación
@@ -63,7 +63,7 @@ const HomeScreen = () => {
             <Button title="Cerrar Sesión" onPress={handleLogout} />
 
             <Text style={styles.title}>¡Bienvenido!</Text>
-            <MapsConmponents />
+           {/*  <MapsConmponents /> */}
             {auth.currentUser && (
                 <Text style={styles.email}>
                     Estás logueado como: {auth.currentUser.email}
