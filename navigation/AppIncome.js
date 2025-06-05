@@ -10,7 +10,8 @@ import LoginScreen from "../screens/LoginScreen"; // Importa tu pantalla de inic
 import { auth } from "../firebase/config"; // Importa auth para el listener
 import { onAuthStateChanged } from "firebase/auth";
 /* import MapsConmponents from "..components/MapsConmponents"; */ // Asegúrate de que este componente exista y esté configurado correctamente
-import HomeScreen from "../screens/HomeScreen";
+/* import HomeScreen from "../screens/HomeScreen"; */
+import Opitimi from "../components/Optimi"; // Importa tu componente de Optimi
 // Asegúrate de que este componente exista y esté configurado correctamente
 export default function AppIncome() {
     const [initializing, setInitializing] = useState(true);
@@ -42,8 +43,8 @@ export default function AppIncome() {
     if (!user) {
         return <LoginScreen />;
     }else{
-        return <HomeScreen user={user} />;
-
+       /*  return <HomeScreen user={user} />; */
+            return( <Opitimi />)
     }
 
     return (
