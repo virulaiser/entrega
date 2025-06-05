@@ -7,5 +7,4 @@ componente 1 <AppNavigator/> es el login y record  (con firebase en bd remota) c
 componente 2 <HomeScreens/> usando firestore graba al precionar un boton, localmente  { articulo: "licuadora", cantidad: 1 } y si preciono otro se graba en firestore.
 
 componente 3 <Opitimi/> genera una lista random con facker ,optimisada con FlatView & SafeAreaView,
-
-componente 4 <sqlit/>
+se suma a: db -> /database/db funciones con SQlite , agreaga articulo random y borra todo
